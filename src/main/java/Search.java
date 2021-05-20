@@ -36,11 +36,14 @@ public class Search{
     }
 
     public static void secondPage() {
+        /*
+        //Pager yapısındaki linke tıklar
         final By secondPage =  By.cssSelector("div.pager.pt30.hidden-m.gg-d-24 ul.clearfix li:nth-of-type(2) a");
         WebElement element = driver.findElement(secondPage);
         Actions actions = new Actions(driver);
-        actions.moveToElement(element).click().perform();
-        //driver.get("https://www.gittigidiyor.com/arama/?k=bilgisayar&sf=2");
+        actions.moveToElement(element).click().perform();*/
+        
+        driver.get("https://www.gittigidiyor.com/arama/?k=bilgisayar&sf=2");
     }
 
     public static int randomNumber() {
